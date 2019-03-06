@@ -9,7 +9,7 @@ public class MouvementKernel {
 			uOnClick = 100, vOnClick = -100, g = 9.81,
 			dt = 0.1, circleRadius = 150, opacityMin = 0.1, opacityMax = 0.7;
 	private static int screenWidth = 1960, screenHeight = 1080,
-			modesDeVitesse = 2, sol = 30, delay = 16;
+			modesDeVitesse = 2, sol = 30, delay = 15;
 	private static Processing processing;
 	private static Random r;
 	

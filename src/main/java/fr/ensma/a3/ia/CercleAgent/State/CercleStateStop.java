@@ -15,4 +15,7 @@ public class CercleStateStop extends CercleStateAbstract {
 		model.setBouncing(true);
 	}
 	
+	@Override
+	public void toStop() throws CercleStateException {
+	}
 }

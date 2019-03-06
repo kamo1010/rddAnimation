@@ -30,6 +30,7 @@ public class App extends Application implements EventHandler<KeyEvent> {
 		root.setCursor(Cursor.NONE);
 		Scene scene = new Scene(root, cPres.getKernel().getWidth(), cPres.getKernel().getHeight(), Color.BLACK);
 		stage.setScene(scene);
+		stage.setFullScreenExitHint("");
 		stage.setResizable(false);
 		stage.setMaximized(true);
 		stage.setFullScreen(true);
